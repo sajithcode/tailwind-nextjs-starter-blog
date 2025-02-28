@@ -6,10 +6,10 @@ const siteMetadata = {
   description: 'Code With Leo Blog – A tech blog exploring web development, Next.js, Tailwind CSS, and modern programming trends. Learn tutorials, best practices, and insights on building scalable applications.',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://tailwind-nextjs-starter-blog-psi-gold.vercel.app',
+  siteRepo: 'https://github.com/sajithcode/tailwind-nextjs-starter-blog',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
-  socialBanner: `${process.env.BASE_PATH || ''}/static/images/social-banner.png`,
+  socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
   mastodon: 'https://mastodon.social/@mastodonuser',
   email: 'address@yoursite.com',
   github: 'https://github.com',
