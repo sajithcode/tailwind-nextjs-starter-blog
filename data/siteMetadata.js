@@ -3,7 +3,7 @@ const siteMetadata = {
   title: 'Code With Leo Blog',
   author: 'Lode With Leo',
   headerTitle: 'CodeWithLeo',
-  description: 'Exploring web development, Next.js, Tailwind CSS, and modern programming trends with tutorials, best practices, and insights on scalable applications.',
+  description: 'Code With Leo Blog',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog-psi-gold.vercel.app',
