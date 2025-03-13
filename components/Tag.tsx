@@ -7,7 +7,7 @@ interface Props {
 const Tag = ({ text }: Props) => {
   return (
     <Link href={`/tags/${slug(text)}`}>
-      <div className="inline-block relative py-1 text-xs group mx-1">
+      <div className="inline-block relative py-1 text-xs group mr-1">
         <div className="absolute inset-0 text-primary-500 group-hover:text-primary-600 dark:group-hover:text-primary-400 flex">
           <svg height="100%" viewBox="0 0 50 100">
             <path
