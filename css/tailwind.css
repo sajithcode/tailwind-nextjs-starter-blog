@@ -134,4 +134,36 @@ input:-webkit-autofill:focus {
   vertical-align: middle;
 }
 
+.line-add {
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px; /* Adds spacing between text and arrow */
+}
+
+.line-add::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  background: oklch(0.4431 0.0927 194.77);
+  transition: width 0.2s;
+}
+
+.line-add:hover::after {
+  width: 100%;
+}
+
+.line-add .arrow {
+  display: inline-block;
+  transition: transform 0.2s ease-in-out;
+}
+
+.line-add:hover .arrow {
+  transform: translateX(5px); /* Moves arrow 3px to the right */
+}
 
