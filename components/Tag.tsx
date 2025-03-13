@@ -15,9 +15,9 @@ const Tag = ({ text }: Props) => {
           fill="currentColor"
         />
       </svg>
-      <div className="-ml-px h-full flex-grow bg-primary-500 group-hover:bg-primary-600 dark:group-hover:bg-primary-400 rounded-md rounded-l-none"></div>
+      <div className="bg-primary-500 group-hover:bg-primary-600 dark:group-hover:bg-primary-400 -ml-px h-full flex-grow rounded-md rounded-l-none"></div>
     </div>
-    <span className="pr-px font-semibold text-white uppercase relative">
+    <span className="relative pr-px font-semibold text-white uppercase">
       <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
       {text.split(' ').join('-')}
       <span>&nbsp;</span>
@@ -26,6 +26,7 @@ const Tag = ({ text }: Props) => {
     </span>
   </div>
 </Link>
+
 
   )
 }
