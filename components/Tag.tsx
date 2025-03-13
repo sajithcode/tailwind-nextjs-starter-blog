@@ -11,7 +11,7 @@ const Tag = ({ text, count, className }: Props) => {
   return (
     <Link href={`/tags/${slug(text)}`}>
       <div className="group relative mr-1 inline-block py-1 text-xs">
-        <div className="absolute inset-0 text-primary-500 group-hover:text-primary-600 dark:group-hover:text-primary-400 flex">
+        <div className="text-primary-500 group-hover:text-primary-600 dark:group-hover:text-primary-400 absolute inset-0 flex">
           <svg height="100%" viewBox="0 0 50 100">
             <path
               d="M49.9,0a17.1,17.1,0,0,0-12,5L5,37.9A17,17,0,0,0,5,62L37.9,94.9a17.1,17.1,0,0,0,12,5ZM25.4,59.4a9.5,9.5,0,1,1,9.5-9.5A9.5,9.5,0,0,1,25.4,59.4Z"
