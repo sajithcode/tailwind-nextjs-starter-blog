@@ -2,9 +2,11 @@ import Link from 'next/link'
 import { slug } from 'github-slugger'
 interface Props {
   text: string
+  count?: number
+  className?: string
 }
 
-const Tag = ({ text }: Props) => {
+const Tag = ({ text, count, className }: Props) => {
   return (
     <Link href={`/tags/${slug(text)}`}>
   <div className="group relative mr-1 inline-block py-1 text-xs">
@@ -21,7 +23,7 @@ const Tag = ({ text }: Props) => {
       <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
       {text.split(' ').join('-')}
       <span>&nbsp;</span>
-      {/* {count && `[ ${count} ]`} */}
+      {count && `[ ${count} ]`}
       <span>&nbsp;</span>
     </span>
   </div>
