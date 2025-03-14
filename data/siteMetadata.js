@@ -6,7 +6,7 @@ const siteMetadata = {
   description: 'Code With Leo Blog',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog-psi-gold.vercel.app',
+  siteUrl: 'https://codewithleo.me',
   siteRepo: 'https://github.com/sajithcode/tailwind-nextjs-starter-blog',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
