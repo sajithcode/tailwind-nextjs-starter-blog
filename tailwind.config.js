@@ -36,7 +36,7 @@ module.exports = {
               code: { color: theme('--color-primary-600') },
             },
             'h1,h2,h3,h4,h5,h6': {
-              color: theme('--color-gray-100'),
+              color: theme('--color-primary-400'),
             },
           },
         },
